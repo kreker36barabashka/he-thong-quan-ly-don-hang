@@ -6,10 +6,11 @@
   "scripts": {
     "start": "node server/index.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",( 
     "test": "echo 'No tests specified' && exit 0"
   },
   "dependencies": {
     "concurrently": "^6.0.0"
-  }
+  },
+  "license": "MIT"
 }
