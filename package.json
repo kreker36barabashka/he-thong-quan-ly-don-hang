@@ -1,4 +1,4 @@
-{
+ {
   "name": "he-thong-quan-ly-don-hang",
   "version": "1.0.0",
   "description": "Một hệ thống quản lý đơn hàng tối ưu cho các cửa hàng trực tuyến với khả năng mở rộng linh hoạt.",
@@ -6,4 +6,6 @@
   "scripts": {
     "start": "node server/index.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+}
