@@ -7,14 +7,3 @@
     "start": "node server/index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "echo 'No tests defined'" // Placeholder for future tests
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9",
-    "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "concurrently": "^6.0.0"
-  }
-}
